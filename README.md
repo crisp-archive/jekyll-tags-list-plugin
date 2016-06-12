@@ -10,27 +10,27 @@
 
 ## Parameters
 
-* ```:threshold```
+### ```:threshold```
 * Threshold of tag count
 * Default Value: 1
 * Values: Any positive integers
 
 ```:threshold => 1```
 
-* ```:show_count```
+### ```:show_count```
 * Whether show tag count in tags list
 * Default Value: 1(which means true)
 * Set to ```:show_count => 0``` if not need
 
 ```:show_count => 1```
 
-* ```:sort_by```
+### ```:sort_by```
 * Default Value: name
 * Values: name|count|time
 
 ```:sort_by => count```
 
-* ```:order_by```
+### ```:order_by```
 * Default Value: asc
 * Values: asc|desc
 
