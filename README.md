@@ -1,6 +1,7 @@
 # Jekyll Tags List Plugin
 
 [![Join the chat at https://gitter.im/crispgm/jekyll-tags-list-plugin](https://badges.gitter.im/crispgm/jekyll-tags-list-plugin.svg)](https://gitter.im/crispgm/jekyll-tags-list-plugin?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+![https://img.shields.io/badge/license-MIT-blue.svg]()
 
 ## Usage
 
