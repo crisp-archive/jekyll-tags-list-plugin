@@ -21,9 +21,7 @@ module Jekyll
       
       # Default: name
       # Value: name, time, count
-      @sort_by = 0
-      
-      # @tag_link = ''
+      @sort_by = 'count'
       
       @show_count = 1
 
