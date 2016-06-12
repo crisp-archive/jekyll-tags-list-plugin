@@ -35,3 +35,9 @@
 * Values: asc|desc
 
 ```:order_by => desc```
+
+# Example
+
+[https://crisp.lol/archive.html](https://crisp.lol/archive.html)
+
+Notice: The blog posts might be in Chinese.
