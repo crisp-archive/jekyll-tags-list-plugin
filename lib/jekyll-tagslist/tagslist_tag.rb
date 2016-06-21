@@ -105,4 +105,4 @@ module Jekyll
 
 end # end of module
 
-Liquid::Template.register_tag('tags_list', Jekyll::TagsList)
+Liquid::Template.register_tag('tags_list', Jekyll::Tagslist::TagslistTag)
