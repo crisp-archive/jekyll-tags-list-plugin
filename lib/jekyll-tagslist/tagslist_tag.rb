@@ -5,9 +5,9 @@
 
 module Jekyll
 
-  module TagsList
+  module Tagslist
 
-    class TagsListTag < Liquid::Tag
+    class TagslistTag < Liquid::Tag
 
       def initialize(tag_name, text, tokens)
         super

@@ -5,7 +5,7 @@ require 'jekyll-tagslist/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "jekyll-tagslist"
-  spec.version       = Jekyll::TagsList::VERSION
+  spec.version       = Jekyll::Tagslist::VERSION
   spec.authors       = ["David Zhang"]
   spec.email         = ["crispgm@gmail.com"]
   spec.summary       = "A Liquid tag plugin for Jekyll."
