@@ -5,25 +5,28 @@
 
 ## Installation
 
+1. Add the following to your site's ```Gemfile```:
+
 ```
-$ gem install jekyll-tagslist
+gem "jekyll-tagslist"
 ```
 
-Then, add the following to your site's ```_config.yml```:
+2. Add the following to your site's ```_config.yml```:
+
 ```
 gems:
   - jekyll-tagslist
 ```
 
-## Usage
+3. Add the following in your site's template(s):
 
 ```
-<div class="article_tag">
+<div class="article-tag">
   {% tags_list :threshold => 1, :show_count => 1, :sort_by => count, :order_by => desc %}
 </div>
 ```
 
-## Parameters
+## Usage
 
 ### ```:threshold```
 * Threshold of tag count
