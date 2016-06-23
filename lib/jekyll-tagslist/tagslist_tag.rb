@@ -61,8 +61,8 @@ module Jekyll
         html = ""
 
         tags.each do |tag, count|
-          count_html = @show_count == 0 ? "" : "<div class=\"tag_item_count\">#{count}</div>"
-          html << "<div class=\"tag_item\"><div class=\"tag_item_name\">#{tag}</div>#{count_html}</div>\n"
+          count_html = @show_count == 0 ? "" : "<div class=\"tag-item-count\">#{count}</div>"
+          html << "<div class=\"tag-item\"><div class=\"tag-item-name\">#{tag}</div>#{count_html}</div>\n"
         end
 
         html
