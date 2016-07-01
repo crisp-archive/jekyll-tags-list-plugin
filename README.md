@@ -9,24 +9,24 @@ A Liquid tag plugin for Jekyll, listed on [https://jekyllrb.com/docs/plugins/](h
 
 1. Add the following to your site's ```Gemfile```:
 
-```
-gem "jekyll-tagslist"
-```
+    ```
+    gem "jekyll-tagslist"
+    ```
 
 2. Add the following to your site's ```_config.yml```:
 
-```
-gems:
-  - jekyll-tagslist
-```
+    ```
+    gems:
+      - jekyll-tagslist
+    ```
 
 3. Add the following in your site's template(s):
 
-```
-<div class="article-tag">
-  {% tags_list :threshold => 1, :show_count => 1, :sort_by => count, :order_by => desc %}
-</div>
-```
+    ```
+    <div class="article-tag">
+      {% tags_list :threshold => 1, :show_count => 1, :sort_by => count, :order_by => desc %}
+    </div>
+    ```
 
 ## Usage
 
