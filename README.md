@@ -24,7 +24,7 @@ A Liquid tag plugin for Jekyll, listed on [https://jekyllrb.com/docs/plugins/](h
 
     ```
     <div class="article-tag">
-      {% tags_list :threshold => 1, :show_count => 1, :sort_by => count, :order_by => desc %}
+      {% tags_list :threshold => 1, :show_count => 1, :sort_by => count, :order_by => desc, :limit => 20 %}
     </div>
     ```
 
@@ -47,6 +47,10 @@ A Liquid tag plugin for Jekyll, listed on [https://jekyllrb.com/docs/plugins/](h
 ### ```:order_by```
 * Default Value: asc
 * Values: ```asc|desc```
+
+## ```:limit```
+* Default Value: 0
+* Values: Any positive integers
 
 # Example
 

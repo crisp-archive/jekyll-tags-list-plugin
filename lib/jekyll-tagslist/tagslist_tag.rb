@@ -25,6 +25,10 @@ module Jekyll
         # Value: name, time, count
         @sort_by = 'count'
 
+        # Default: 0, no limit
+        # Value: integers
+        @limit = 0
+
         @show_count = 1
 
         parse_params
@@ -59,10 +63,16 @@ module Jekyll
         end
 
         html = ""
+        
+        tag_count = 0
 
         tags.each do |tag, count|
+          if tag_count > @limit
+            break
+          end
           count_html = @show_count == 0 ? "" : "<div class=\"tag-item-count\">#{count}</div>"
           html << "<div class=\"tag-item\"><div class=\"tag-item-name\">#{tag}</div>#{count_html}</div>\n"
+          tag_count = tag_count + 1
         end
 
         html
@@ -93,6 +103,9 @@ module Jekyll
             else
               @sort_by  = 'name'
             end
+          elsif param_name.eql? ':limit'
+            param_value = param_value.to_i
+            @limit = param_value if param_value > 0
           else
             next
           end
