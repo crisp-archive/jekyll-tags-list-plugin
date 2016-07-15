@@ -63,11 +63,11 @@ module Jekyll
         end
 
         html = ""
-        
+
         tag_count = 0
 
         tags.each do |tag, count|
-          if tag_count > @limit
+          if tag_count > @limit && @limit != 0
             break
           end
           count_html = @show_count == 0 ? "" : "<div class=\"tag-item-count\">#{count}</div>"
