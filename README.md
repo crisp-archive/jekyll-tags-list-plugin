@@ -30,6 +30,17 @@ A Liquid tag plugin for Jekyll, listed on [https://jekyllrb.com/docs/plugins/](h
     </div>
     ```
 
+4. The output are as follows:
+
+    ```
+    <div class="article-tag">
+      <div class="tag-item"><div class="tag-item-name">Mac</div><div class="tag-item-count">8</div></div>
+      <div class="tag-item"><div class="tag-item-name">OSX</div><div class="tag-item-count">5</div></div>
+      <div class="tag-item"><div class="tag-item-name">PHP</div><div class="tag-item-count">3</div></div>
+      <div class="tag-item"><div class="tag-item-name">Tools</div><div class="tag-item-count">2</div></div>
+    </div>
+    ```
+
 ## Usage
 
 ### ```:threshold```
