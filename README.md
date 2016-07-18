@@ -50,7 +50,7 @@ A Liquid tag plugin for Jekyll, listed on [https://jekyllrb.com/docs/plugins/](h
 * Default Value: asc
 * Values: ```asc|desc```
 
-## ```:limit```
+### ```:limit```
 * Default Value: 0
 * Values: Any positive integers
 
