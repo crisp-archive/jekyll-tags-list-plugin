@@ -67,6 +67,6 @@ A Liquid tag plugin for Jekyll, listed on [https://jekyllrb.com/docs/plugins/](h
 
 # Example
 
-[https://crisp.lol/archive.html](https://crisp.lol/archive.html)
+<https://crisp.lol/blog.html>
 
 Notice: The blog posts might be in Chinese.
